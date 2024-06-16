@@ -18,9 +18,9 @@ def image_to_text(image: str) -> str:
 
 
 def main():
-    st.set_page_config(page_title="img to audio description", page_icon="🤖")
+    st.set_page_config(page_title="img to written description", page_icon="🤖")
 
-    st.header("Turn Image to Audio Description")
+    st.header("Turn Image to Written Description")
     uploaded_file = st.file_uploader("Choose an image...", type="jpg")
 
     if uploaded_file is not None:
